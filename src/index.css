@@ -7,7 +7,7 @@
 }
 
 body{
-  overflow-x: hidden;
+  overflow: hidden;
   font-family: "Cairo", sans-serif;
 }
 html{
@@ -18,7 +18,7 @@ html{
   color:  white;
 }
 section{
-  background: url("./assets//bg.webp");
+  background: #302c2c  url("./assets//bg.webp");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -26,6 +26,7 @@ section{
   min-height: 100vh;
   display: flex;
   align-items: center;
+  object-fit: cover;
 
 }
 
@@ -114,4 +115,21 @@ color: white;
     flex-direction: row;
     gap: 15px;
   }
+  .container .heading  select{
+    width: 190px;
+  }
+}
+
+.loading {
+  position: fixed; 
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto auto;  
+  display: flex; 
+  align-items: center;
+  justify-content: center;
+  background-color: #332a224e; 
+  z-index: 9999; 
 }

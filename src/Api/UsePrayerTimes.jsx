@@ -6,10 +6,18 @@ const usePrayerTimes = (city) => {
     const cities = [
         { name: "القاهرة", value: "Cairo" },
         { name: "الإسكندرية", value: "Alexandria" },
+        { name: "مطروح", value: "Matruh" },
         { name: "الجيزة", value: "Giza" },
+        { name: "الإسماعيلية", value: "Ismailia" },
+        { name: "بورسعيد", value: "Port Said" },
+        { name: "المنيا", value: "Minya" },
+        { name: "أسيوط", value: "Assiut" },
+        { name: "سوهاج", value: "Sohag" },
         { name: "قنا", value: "Qena" },
         { name: "الأقصر", value: "Luxor" },
-        { name: "أسوان", value: "Aswan" }
+        { name: "أسوان", value: "Aswan" },
+        { name: "السويس", value: "Suez" },
+    
     ];
 
     useEffect(() => {
